@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer-container{
+    background-color: #212529;
+    
+}
+.item{
+    text-align: center;
+}
+.con{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+h4{
+    padding-left: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+a, .tel{
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover, .tel:hover{
+    cursor: pointer;
+    color: gray;
+  }
+  .tel{
+      padding-left: 0%;
+      margin-left: 0%;
+  }
+  .footer-title{
+      margin-right: 10px;
+  }
+ .social-logo{
+    margin-right: 5px;
+ }

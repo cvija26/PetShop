@@ -1,0 +1,35 @@
+.three-img{
+    margin-top: 50px;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.three-img > a {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.link {
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    border: 1px solid black;
+}
+
+.link > img{
+   width: 100%;
+
+
+}
+
+.link:hover {
+    border: 2px solid rgba(var(--bs-danger-rgb),var(--bs-text-opacity))!important;
+}
+
+@media screen and (max-width:800px) {
+    .three-img{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
